@@ -12,4 +12,9 @@ public class Cube extends Shape3D {
     public void setDiagonal(double diagonal) {
         this.diagonal = diagonal;
     }
+
+    @Override
+    public String toString() {
+        return  diagonal + "";
+    }
 }

@@ -22,4 +22,9 @@ public class Rectangle extends GeometricShape {
     public void setLongSide(double longSide) {
         this.longSide = longSide;
     }
+
+    @Override
+    public String toString() {
+        return  shortSide + " i " + longSide;
+    }
 }
